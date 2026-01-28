@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Rolling Snake — Language & Framework Demo</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <main class="wrap">
+    <section class="profile">
+      <img class="avatar" src="https://placehold.co/160x160?text=You" alt="avatar" />
+      <h1 class="name">Your Name</h1>
+      <p class="bio">Crafting delightful interfaces • Open source enthusiast</p>
+
+      <div class="skills">
+        <span class="chip">JavaScript</span>
+        <span class="chip">Python</span>
+        <span class="chip">Rust</span>
+        <span class="chip">Go</span>
+        <span class="chip">Flask</span>
+        <span class="chip">Django</span>
+        <span class="chip">FastAPI</span>
+        <span class="chip">Node.js</span>
+        <span class="chip">React</span>
+      </div>
+
+      <a class="cta" href="#" target="_blank" rel="noreferrer">View projects →</a>
+    </section>
+
+    <section class="animation">
+      <h2>Rolling Snake</h2>
+
+      <div class="snake-stage">
+        <div class="snake" id="snake">
+          <!-- segments -->
+          <span class="seg s1"></span>
+          <span class="seg s2"></span>
+          <span class="seg s3"></span>
+          <span class="seg s4"></span>
+          <span class="seg s5"></span>
+          <span class="seg s6"></span>
+          <span class="seg s7"></span>
+          <span class="seg s8"></span>
+          <span class="seg s9"></span>
+          <span class="seg s10"></span>
+        </div>
+
+        <div class="language-roller" id="langRoll">
+          <span class="lang">English</span>
+          <span class="lang">Español</span>
+          <span class="lang">Français</span>
+          <span class="lang">中文</span>
+          <span class="lang">日本語</span>
+          <span class="lang">JavaScript</span>
+          <span class="lang">Python</span>
+          <span class="lang">Rust</span>
+          <span class="lang">Go</span>
+          <span class="lang">Flask</span>
+          <span class="lang">Django</span>
+          <span class="lang">FastAPI</span>
+          <span class="lang">Node.js</span>
+          <span class="lang">React</span>
+        </div>
+
+        <div class="controls">
+          <button id="prev" aria-label="Previous">◀</button>
+          <button id="pause">Pause</button>
+          <button id="next" aria-label="Next">▶</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
