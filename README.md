@@ -1,7 +1,7 @@
 
 # 👋 Hi, I’m Maurice Kabubu
 
-I’m a passionate **software developer** with a strong interest in **Python**, **web development**, and building practical, real-world applications. I enjoy learning by doing, solving problems, and collaborating with others to create meaningful solutions.
+I’m a passionate **software developer** with a strong interest in **Python Backend apllications**, **web development**,**cloud computing** and building practical, real-world applications. I enjoy learning by doing, solving problems, and collaborating with others to create meaningful solutions.
 
 ---
 
