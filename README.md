@@ -22,6 +22,7 @@ I’m a passionate **software developer** with a strong interest in **Python Bac
 - Git & GitHub  
 - Learning Data Science & backend development
 - Django
+- Flask
 - FastApi
 - Bootstrap css
 - React
