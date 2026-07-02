@@ -23,12 +23,15 @@ I’m a passionate **software developer** with a strong interest in **Python Bac
 - Learning Data Science & backend development
 - Django
 - FastApi
-- Nodejs
 - Bootstrap css
 - React
 - Mysql
 - Aws
 - Azure
+- Docker
+- Tensorflow
+- Pandas
+- Matplotlib
 
 ---
 
