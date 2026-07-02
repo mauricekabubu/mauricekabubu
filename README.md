@@ -40,8 +40,7 @@ I’m a passionate **software developer** with a strong interest in **Python Bac
 - Improving my backend and web development skills  
 - Building projects to strengthen my portfolio  
 - Learning through hands-on coding and collaboration
-- Aiming to be a Fullstack developer
-- 
+- Aiming to be a Ai and Ml engineer
 
 ---
 
