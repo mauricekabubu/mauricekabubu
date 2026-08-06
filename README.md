@@ -119,7 +119,13 @@ I'm a backend engineer who builds with **Python, Flask, Django, and FastAPI**, w
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/mauricekabubu/mauricekabubu/output/github-contribution-grid-snake-dark.svg?palette=github-dark" width="100%" />
+<p align="center">
+  <img
+    src="https://github.com/mauricekabubu/mauricekabubu/blob/output/github-contribution-grid-snake-dark.svg?raw=true"
+    alt="Snake animation"
+    width="100%"
+  />
+</p>
 
 </div>
 
