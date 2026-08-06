@@ -175,7 +175,7 @@ I'm a backend engineer who builds with **Python, Flask, Django, and FastAPI**, w
 Offline-first Point of Sale System built for reliability in low-connectivity environments.
 
 <!-- Update the repo= slug once this project is pushed to GitHub -->
-<img src="https://github-readme-stats.vercel.app/api/pin/?username=mauricekabubu&repo=https://github.com/mauricekabubu/Point-Of-Sale-System&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=c9d1d9" width="100%"/>
+<img src="https://github-readme-stats.vercel.app/api/pin/?username=mauricekabubu&repo=Point-Of-Sale-System&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58A6FF&icon_color=58A6FF&text_color=c9d1d9" width="100%"/>
 
 </td>
 <td width="50%" valign="top">
