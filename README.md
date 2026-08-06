@@ -121,7 +121,7 @@ I'm a backend engineer who builds with **Python, Flask, Django, and FastAPI**, w
 
 <p align="center">
   <img
-    src="https://github.com/mauricekabubu/mauricekabubu/blob/output/github-contribution-grid-snake-dark.svg?raw=true"
+    src="https://raw.githubusercontent.com/mauricekabubu/mauricekabubu/output/github-contribution-grid-snake-dark.svg"
     alt="Snake animation"
     width="100%"
   />
