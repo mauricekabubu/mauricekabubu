@@ -123,39 +123,39 @@ I'm a backend engineer who builds with **Python, Flask, Django, and FastAPI**, w
 
 </div>
 
-> **Setup:** add this workflow as `.github/workflows/snake.yml` in your [`mauricekabubu/mauricekabubu`](https://github.com/mauricekabubu/mauricekabubu) profile repo, then run it once from the Actions tab.
+> **Setup:** Add this workflow as `.github/workflows/snake.yml` in your `mauricekabubu/mauricekabubu` profile repository, then go to the **Actions** tab and run it once.
 >
 > ```yaml
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 */12 * * *"
-
-  workflow_dispatch:
-
-jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    permissions:
-      contents: write
-
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: mauricekabubu
-          outputs: |
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
-
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+> name: Generate Snake
+>
+> on:
+>   schedule:
+>     - cron: "0 */12 * * *"
+>   workflow_dispatch:
+>
+> permissions:
+>   contents: write
+>
+> jobs:
+>   generate:
+>     runs-on: ubuntu-latest
+>
+>     steps:
+>       - uses: Platane/snk@v3
+>         with:
+>           github_user_name: mauricekabubu
+>           outputs: |
+>             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+>             dist/github-contribution-grid-snake.svg?palette=github-light
+>
+>       - uses: crazy-max/ghaction-github-pages@v4
+>         with:
+>           target_branch: output
+>           build_dir: dist
+>         env:
+>           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 > ```
+
 
 <p align="center"><sub>◈ ─────────────────────────────────────────────────── ◈</sub></p>
 
